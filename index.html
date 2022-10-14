@@ -1,43 +1,139 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="icon" type="image/icon" href="/favico/favicon.ico">
-    <title>I'm aStudent of FTI UNAI</title>
-  </head>
-  <body style="background-color: lightgreen ">
-    <p style=" color: blue;background-color: mediumspringgreen; 
-    font-size: 30px; text-align: center;font-family: verdana;" ><b>What Is UNAI?</b></p>
-    <a href="https://fti.unai.edu/">
-    <img src="File Foto Unai.jpg" width="30%" height="20%" />
-    </a>
-    <blockquote style="color: darkgreen ; font-family: verdana;">
-      <abbr title="Universitas Advent Indonesia"> UNAI</abbr> is
-      <u>
-        a Higher Education Institution managed by the seventh-day Adventist
-        Church of the western Union of Indonesia.</u>
-      The history UNAI is that it was <mark>founded in Cimindi in 1929</mark> which
-      was originally called <i> Opleiding School der Advent Zending. </i>
-      <del>In the past</del> this school was founded for the education of the evangelists of the Seventh-day Adventist Church.
-    </blockquote>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <p style="width: 1000px; height:30px; padding: 15px; border: 5px solid blue; margin: 20px; font-family: verdana;"> Universitas Advent Indonesia has 6 faculties :</p>
-    <!--Hex Color Down Here-->
-    <p style="font-family: verdana ;"><a href="https://ffil.unai.edu/" style="background-color:#32a88f; color:white">1)Faculty of Philosopy</a>
-    <br />
-    <!--Background Color Down Here-->
-    <a href="https://fkip.unai.edu/" style="background-color:brown;color: white">2)Faculty of Teacher Training & Education</a>
-    <br />
-    <!--Rgb Color Down Here-->
-    <a href="https://fe.unai.edu/" style="background-color:rgb(255, 255, 71); color:white">3)Faculty of Economics</a>
-    <br />
-    <!--Rgb Color Down Here-->
-    <a href="https://fik.unai.edu/" style="background-color:rgb(189,138,138); color:white">4)Faculty of Nursing</a>
-    <br/>
-    <!--Hsl Color Down Here-->
-    <a href="https://fmipa.unai.edu/" style="background-color:hsl(253, 100%, 67%); color:white">5)Faculty of Mathematics and Natural Sciences</a >
-    <br />
-    <!--Hex Color Down Here-->
-    <a href="https://fti.unai.edu/" style="background-color:#FF3333; color:white;">6)Faculty of Information Technology</a></p>
-    <p style="font-family: verdana;">
-    </html>
-    
+    <title>Adventech - Technology to spread the Gospel</title>
+
+    <meta name="description" content="Adventech ministry. Our mission is to share the Gospel of Jesus Christ through technology.">
+
+    <meta itemprop="name" content="Adventech">
+    <meta itemprop="description" content="Adventech ministry. Our mission is to share the Gospel of Jesus Christ through technology.">
+
+    <meta name="og:title" content="Adventech">
+    <meta name="og:description" content="Adventech ministry. Our mission is to share the Gospel of Jesus Christ through technology.">
+
+    <meta name="og:image" content="images/adventech-graph-image.png">
+    <meta name="og:url" content="index.html">
+    <meta name="og:site_name" content="Adventech - Technology to spread the Gospel">
+    <meta name="og:type" content="website">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <meta name="theme-color" content="#000">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/main.css">
+    <script src="https://js.stripe.com/v3"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <nav class="navbar navbar-sm navbar-expand-md navbar-expand-lg navbar-light">
+            <a class="navbar-brand m-auto" href="index.html">
+                <img src="images/adventech-menu-logo.png" />
+            </a>
+
+            <div class="navbar-collapse ml-4 center">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active mx-auto my-1">
+                        <a class="nav-link" href="about/biodata.html"><strong>About Me</strong></a>
+                    </li>
+                </ul>
+                <div class="text-center my-2">
+                    <a href="https://github.com/Adventech" class="btn btn-outline-secondary mr-2" role="button" target="_blank">🦓 GitHub</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<main role="main">
+    <div class="my-3 py-3 my-lg-5 py-lg-5 p-4 p-md-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 mb-5 mb-lg-0 text-center">
+                    <img class="img-fluid w-50 d-block d-lg-none m-auto" src="images/adventech-featured-hero-sabbath-school.png" />
+
+                    <img class="img-fluid d-none d-lg-block" src="images/adventech-featured-hero-sabbath-school.png" />
+                </div>
+
+                <div class="col-lg-7">
+                    <h1>The Ultimate</h1>
+                    <h1 class="adventech-hero-title">Sabbath School App</h1>
+                    <p class="my-3 adventech-paragraph">We believe that everyone should hear the Good News about Jesus.  That's why we are committed to delivering high quality projects that are 100% free to download and use.</p>
+
+                    <div class="text-center text-lg-left">
+                        <a href="https://fti.unai.edu/" role="button" class="btn btn-primary btn-lg adventech-hero-cta px-5 mt-4">Join With Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-light my-5 py-5 p-4 p-md-3">
+        <div class="container">
+            <h1>Our Call is Clear</h1>
+
+            <p class="adventech-paragraph my-3">And this Gospel of the Kingdom will be preached in the whole world as a testimony to all nations, and then the end will come.</p>
+            <p class="adventech-paragraph my-3">Matthew 24:14</p>
+        </div>
+    </div>
+
+
+
+    <div class="my-5 py-5 p-4 p-md-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <h1>Global</h1>
+
+                    <p class="adventech-paragraph my-3">Adventech is a volunteer-based movement. Our contributors live around the world and  work for Adventech in their spare time. We currently support 39 languages, with more coming soon.</p>
+                </div>
+
+                <div class="col-lg-7 my-5 my-lg-0 text-center text-lg-right">
+                    <img class="img-fluid" src="images/adventech-globe.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="footer bg-dark text-light p-4 p-md-3">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-9 py-4 p-md-3">
+                <p>Made with ♥ by Adventech</p>
+
+                <p class="my-0 text-secondary">All contributors are members of the Seventh-day Adventist Church. We have partnered with the General Conference of Seventh-day Adventists Sabbath School and Personal Ministries Department.</p>
+            </div>
+            <div class="col-md-3 mt-5 mt-md-0">
+                <div class="container">
+                    <div class="row justify-content-center justify-content-md-end">
+                        <div class="col-2 col-md-3 text-center">
+                            <a href="https://instagram.com/adventech" target="_blank"><img src="images/adventech-social-instagram.png" /></a>
+                        </div>
+                        <div class="col-2 col-md-3 text-center">
+                            <a href="https://facebook.com/shabbatschool" target="_blank"><img src="images/adventech-social-facebook.png" /></a>
+                        </div>
+                        <div class="col-2 col-md-3 text-center">
+                            <a href="https://github.com/Adventech" target="_blank"><img src="images/adventech-social-github.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
+
